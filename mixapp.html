@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>تسجيل دخول MixapP</title>
+    <link rel="stylesheet" href="mixapp.css">
+
+</head>
+
+<body>
+
+    <div class="login-container">
+        <h1>
+            <span class="m">M</span>
+            <span>i</span>
+            <span>x</span>
+            <span>A</span>
+            <span>p</span>
+            <span>P</span>
+            <span>🧿</span>
+
+        </h1>
+        
+        <h2>تسجيل الدخول</h2>
+        <form onsubmit="return login()">
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="password">كلمة المرور:</label><br>
+            <input type="password" id="password" required><br><br>
+
+            <button type="submit">دخول</button>
+        </form>
+
+        <script>
+            function login() {
+                const email = document.getElementById("email").value;
+                const password = document.getElementById("password").value;
+
+                // بيانات افتراضية للمقارنة
+                const validEmail1 = "yasir@gmail.com";
+                const validPassword1 = "yasiryasir";
+                const validEmail2 = "faris@gmail.com";
+                const validPassword2 = "farisfaris";
+                const validEmail3 = "ahbab@gmail.com";
+                const validPassword3 = "ahbabahbab";
+                const validEmail4 = "gasim@gmail.com";
+                const validPassword4 = "gasimgasim";
+                const validEmail5 = "hokm@gmail.com";
+                const validPassword5 = "123456";
+
+
+                if (email === validEmail1 && password === validPassword1) {
+                    // الانتقال إلى صفحة أخرى بعد نجاح الدخول
+                    window.location.href = "max.html";
+                    return false;
+
+                } else if (email === validEmail2 && password === validPassword2) {
+                    window.location.href = "faris.html";
+                }
+                else if (email === validEmail3 && password === validPassword3) {
+                    window.location.href = "ahbab.html";
+                }
+                
+                else if (email === validEmail4&& password === validPassword4) {
+                    window.location.href = "gasim.html";
+                }
+                else if (email === validEmail5&& password === validPassword5) {
+                    window.location.href = "hokm.html";
+                }
+                else {
+
+                }
+                {
+                    alert("بيانات الدخول غير صحيحة");
+                    return false;
+                }
+
+
+            }
+            
+        </script>
+        <a href="Sing Up.html">MixapPانشاء حساب علي 
+        </a>
+         <div>
+            &copy;
+            حقوق النشر محفوظة للدفعه
+            41 
+            بكالاريوس 
+            2025
+         </div>
+    </div>
+</body>
+
+
+</html>

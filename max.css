@@ -1,0 +1,88 @@
+body {
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+    background-image: url(a.JPG);
+    direction: rtl;
+}
+
+header {
+
+    background-color: #6285be;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+}
+
+.logo {
+    font: size 12 px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.like {
+    width: 313px;
+
+}
+
+.comment {
+    width: 313px;
+}
+.y{
+    width: 1300;
+}
+
+
+nav {
+    margin: 2px;
+
+    background-color: #74839c;
+
+}
+nav a{
+    text-align: center;
+    padding: 0px  90px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+section {
+    background-color: #f7f7f7;
+    margin-bottom: 7px;
+    box-shadow: 0 0 10px rgba(0, 4, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.post {
+    background-color: #fff;
+    margin: auto;
+    padding: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-top: 0;
+}

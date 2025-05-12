@@ -1,0 +1,41 @@
+body { 
+    font-size: x-large; 
+    background-image: url(devolper.png); 
+    background-size: cover; /* لجعل الخلفية تغطي الشاشة بالكامل */
+    margin: 0; /* لإزالة الهوامش الافتراضية */
+    display: flex;
+    justify-content: center; /* لمحاذاة المحتوى في المنتصف أفقياً */
+    align-items: center; /* لمحاذاة المحتوى في المنتصف عمودياً */
+    height: 100vh; /* جعل ارتفاع الجسم يملأ الشاشة بالكامل */
+} 
+
+.developer-container { 
+    background-color: rgba(255, 255, 255, 0.9); /* لون خلفية أبيض مع شفافية */
+    border-radius: 10px; /* زوايا مستديرة */
+    padding: 20px; /* إضافة مساحة داخلية */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* ظل خفيف لجعل المربع بارزاً */
+    width: 80%; /* عرض المربع */
+    max-width: 800px; /* الحد الأقصى لعرض المربع */
+} 
+
+table { 
+    width: 100%; /* جعل الجدول يأخذ كامل عرض الحاوية */
+    border-collapse: collapse; /* دمج الحدود */
+} 
+
+th, td { 
+    border: 1px solid rgb(49, 19, 179); /* حدود الخلايا */
+    padding: 10px; /* إضافة مساحة داخل الخلايا */
+    text-align: center; /* محاذاة النص في الوسط */
+} 
+
+th { 
+    background-color: rgb(49, 19, 179); /* لون خلفية رؤوس الأعمدة */
+    color: white; /* لون النص في رؤوس الأعمدة */
+} 
+
+tr:nth-child(even) { 
+    background-color: rgba(220, 220, 220, 0.5); /* لون خلفية الصفوف الزوجية */
+}
+
+ 
